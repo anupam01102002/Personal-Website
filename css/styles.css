@@ -1,0 +1,28 @@
+body {
+    background-color: #CFF5E7;
+    margin: 0;
+    
+  }
+  hr{
+    color: #59C1BD;
+    height: 2px;
+    border-style: dotted;
+    width: 5%;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-width: 5px;
+  }
+  h1,h3 {
+    color: #0D4C92;
+    margin-top: 0;
+  }
+  .Name{
+    font-family: "Sofia", sans-serif;
+  }
+  .Landingpage{
+    height : 1100px;
+    width: 1520px;
+    background-image: url("/Media/2.png");
+    background-size: cover;
+  }
