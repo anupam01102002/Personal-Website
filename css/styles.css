@@ -14,15 +14,26 @@ body {
     border-width: 5px;
   }
   h1,h3 {
-    color: #0D4C92;
+    
     margin-top: 0;
   }
   .Name{
     font-family: "Sofia", sans-serif;
   }
   .Landingpage{
-    height : 1100px;
-    width: 1520px;
+    height : 100vh;
+    width: 100vw;
+    object-fit: cover;
     background-image: url("/Media/2.png");
     background-size: cover;
+    text-align: center;
+    position: relative;
+    background-origin: padding-box;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 48px;
   }
+  p.Name{
+    margin: 0;
+  }
+  
